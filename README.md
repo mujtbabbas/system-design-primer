@@ -9,6 +9,20 @@
   <br/>
 </p>
 
+## About This Standalone Edition
+
+- **Main repository:** [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+- **Based on version:** upstream commit `ae9bbd7b02d90b9866215de185217d33f39ab733` (snapshotted 2026-10-20; upstream HEAD dated 2026-03-19)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - .github/dependabot.yml — weekly GitHub Actions dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the guide and its translations (upstream ships no workflows; this is its first)
+  - .editorconfig — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to Donne Martin. Licence is preserved unchanged — see `LICENSE.txt`: the author's personal licence text granting this work under the Creative Commons Attribution 4.0 International License (CC BY 4.0). That non-standard licence file is why the GitHub API reports the licence as NOASSERTION. This edition adds the enhancements listed above only.
+
 ## Motivation
 
 > Learn how to design large-scale systems.
