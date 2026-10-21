@@ -1,0 +1,9 @@
+ignores:
+  - "*/**/*.md"
+  - ".github/**/*.md"
+  - "CONTRIBUTING.md"
+  - "README-ja.md"
+  - "README-zh-Hans.md"
+  - "README-zh-TW.md"
+  - "README.md"
+  - "TRANSLATIONS.md"
